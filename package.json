@@ -1,0 +1,14 @@
+{
+    "name": "node-server",
+    "version": "1.6.6",
+    "description": "This is a very simple node app that does basically nothing",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "monirul",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
