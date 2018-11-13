@@ -30,12 +30,12 @@ This is a sample NodeJs application to serve as a Restful Service, for mocking a
 
 
 3) To get a details bio with respect to id=338f0585-6737-48a0-b4be-d88fc011b72d   (GET Method)  
-	http://localhost:3000/bio/<id>  
+	http://localhost:3000/bio/338f0585-6737-48a0-b4be-d88fc011b72d 
 	Sample id = 338f0585-6737-48a0-b4be-d88fc011b72d, , you needs to pass the respective id of the Biography you wants to fetch.  
 
 
 4) To Delete a biography with respect to an id=f75733d8-b0f0-4a45-8dad-9f0ae8d4791d (DELETE Method)  
-	http://localhost:3000/deleteBio/<id>  
+	http://localhost:3000/deleteBio/f75733d8-b0f0-4a45-8dad-9f0ae8d4791d
 	Sample id = f75733d8-b0f0-4a45-8dad-9f0ae8d4791d , you needs to pass the respective id of the Biography you wants to delete.  
 
 
