@@ -3,6 +3,11 @@ var bodyParser = require('body-parser')
 
 var uuid = require('node-uuid');
 var app = express();
+// Import the library:
+var cors = require('cors');
+var app = express();
+// Then use it before your routes are set up:
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
