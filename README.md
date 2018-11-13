@@ -10,20 +10,20 @@ It will start the app at port 3000
 
 CRUD Operations:  
 
-1)To Get all users (GET Method)  
-http://localhost:3000/users  
+1) To Get all users (GET Method)  
+	http://localhost:3000/users  
 
 
-2)To add a biogragraphy (POST Method)  
-http://localhost:3000/addBio  
-Sample Request JSON   
-{  	
-	  "firstName": "Jon",  
-    "lastName": "Doe",  
-    "favoriteLanguage": "Angular",  
-    "yearStarted": 2014,  
-    "imagePath": null  
-}   
+2) To add a biogragraphy (POST Method)  
+	http://localhost:3000/addBio  
+	Sample Request JSON   
+	{  	
+		  "firstName": "Jon",  
+	    "lastName": "Doe",  
+	    "favoriteLanguage": "Angular",  
+	    "yearStarted": 2014,  
+	    "imagePath": null  
+	}   
 
 
 3) To get a details bio with respect to id=338f0585-6737-48a0-b4be-d88fc011b72d   (GET Method)  
