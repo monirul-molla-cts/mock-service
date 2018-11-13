@@ -25,6 +25,7 @@ Sample Request JSON
     "imagePath": null  
 }   
 
+
 3) To get a details bio with respect to id=338f0585-6737-48a0-b4be-d88fc011b72d   (GET Method)  
 http://localhost:3000/bio/338f0585-6737-48a0-b4be-d88fc011b72d  
 
